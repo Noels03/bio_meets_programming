@@ -1,3 +1,6 @@
+#Copy over your PatternCount function from the previous step.  
+# Then print  the number of times that the string Pattern = "TGATCA" occurs in the string Text corresponding to the Vibrio cholerae ori, which is found here.
+
 # Copy your PatternCount function from the previous step below this line
 def PatternCount(Text, Pattern):
     count = 0
@@ -14,6 +17,7 @@ Pattern = 'TGATCA'
 
 # Finally, print the result of calling PatternCount on Text and Pattern.
 
-print(PatternCount)
+print(PatternCount(Text, Pattern))
 
 # Don't forget to use the notation print() with parentheses included!
+
