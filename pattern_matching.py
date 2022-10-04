@@ -36,3 +36,12 @@ positions = PatternMatching(Pattern, Genome)
 # print the positions variable
 
 print(positions)
+
+
+#After solving the Pattern Matching Problem, we discover that "ATGATCAAG" appears 17 times in the following positions of the Vibrio cholerae genome:
+
+#116556, 149355, 151913, 152013, 152394, 186189, 194276, 200076, 224527,
+#307692, 479770, 610980, 653338, 679985, 768828, 878903, 985368
+
+#With the exception of the three occurrences of "ATGATCAAG" in ori at starting positions 151913, 152013, and 152394, no other instances of "ATGATCAAG" form “clumps”, i.e., appear close to each other in a small region of the genome. 
+# The preceding exercise verifies that the same conclusion is reached when searching for "CTTGATCAT". We now have strong statistical evidence that "ATGATCAAG"/"CTTGATCAT" may represent the hidden message to DnaA to start replication.
